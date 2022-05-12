@@ -6,6 +6,7 @@
   --main-header1-size: 2.2rem;
   --main-header2-size: 1.8rem;
   --main-header3-size: 1.6rem;
+  --header-font-size: 1.4rem;
 }
 
 html {
@@ -17,3 +18,25 @@ html {
 body {
 	font-family: var(--main-font-family);
 }
+
+header nav ul li {
+
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+}
+
+header nav ul li a {
+	font-size: var(--header-font-size);
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+	filter: invert(50%);
+}
+
+header nav ul li a:active {
+	color: lightgrey; /* does not work, i think*/
+}
+
