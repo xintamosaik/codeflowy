@@ -1,0 +1,15 @@
+:root {
+  --main-font-family: sans-serif;
+  --main-font-size: 1rem;
+  --main-font-color: black;
+  --main-background-color: white;
+  --main-header1-size: 2.2rem;
+  --main-header2-size: 1.8rem;
+  --main-header3-size: 1.6rem;
+}
+
+html {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
